@@ -12,3 +12,5 @@ bestiario.post('/',bestiarioController.post);
 bestiario.put('/:id',bestiarioController.put);
 //metodo para eliminar un elemento
 bestiario.delete('/:id'.bestiarioController.delete);
+
+module.exports = bestiario;
